@@ -1,4 +1,4 @@
-# AngularJS 仿拉钩
+# AngularJS webapp demo
 > 使用AngularJS@1.6.4开发
 
 ## 主要依赖
