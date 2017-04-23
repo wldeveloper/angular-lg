@@ -1,0 +1,41 @@
+.foot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    .h(40);
+    .lh(40);
+    font-size:0;
+    border-top: 1px solid @lineColor;
+    li{
+        display: inline-block;
+        width: 33.33%;
+        .fs(20);
+        text-align: center;
+        color:@muteColor;
+        &.select{
+            background-color: @highlightBgColor;
+            color:@highlightColor;
+        }
+        span{
+            vertical-align: middle;
+        }
+    }
+    .icon{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .icon-document{
+        background-image: url('../image/document.png');
+    }
+    .icon-search{
+        background-image: url('../image/search.png');
+    }
+    .icon-my{
+        background-image: url('../image/my.png');
+    }
+}
